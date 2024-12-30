@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="nav">
+        <h1>BookSky</h1>
+    </nav>
+
+    <div id="container">
+
+        <div class="bookContainer">
+            <h2>Rich Daad Poor Dad</h2>
+            <h4>Nithish</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quae, cumque fugit, natus modi itaque sed nemo optio temporibus beatae culpa suscipit fuga recusandae veniam. Blanditiis necessitatibus similique et doloribus?</p>
+            <button onclick="deletebook(event)">Delete</button>
+
+        </div>
+
+    </div>
+
+    <div id="popup-overlay"></div>
+
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input id="booktitle" type="text" placeholder="Book Title">
+            <input id="bookauthor" type="text" placeholder="Book Author">
+            <textarea id="description" placeholder="Short Description ... "></textarea>
+            <button id="btn-box-add">ADD</button>
+            <button id="btn-box-cancel">CANCEL</button>
+        </form>
+    </div>
+
+    <button id="btn-add">+</button>
+    
+
+    <script src="booksky.js"></script>
+</body>
+</html>
