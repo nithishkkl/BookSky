@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="./Booksky.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@400..700&family=Delius&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="navbar">
+        <h1>BookSky</h1>
+    </div>
+
+
+    <div id="container">
+        <div class="container-box">
+            <h2>Rich Dad poor Dad</h2>
+            <h4>Robert</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsam. Dicta, exercitationem quae
+                quod similique deleniti fugit sint architecto. Veritatis quasi temporibus aspernatur deleniti sapiente
+                ipsum sequi officiis ut ea numquam, libero odio perferendis atque hic cumque porro, praesentium,
+                incidunt repellat animi quod tempora. Perferendis error sed hic molestiae perspiciatis!</p>
+            <button id="delete-btn" onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div id="add-button">
+        <button id="add-btn">+</button>
+    </div>
+
+    <div id="popup-overlay">
+
+    </div>
+
+
+
+        <div id="popup-box">
+
+            <form>
+    
+                <h3>Add Book</h3>
+    
+                <input id="input1" type="text" placeholder="Book TItle">
+                <input id="input2" type="text" placeholder="Book Author">
+                <textarea id="input3" placeholder="Short Description"></textarea>
+    
+                <button id="add-book">Add</button>
+    
+                <button id="cancel-btn">Cancel</button>
+    
+            </form>
+    
+    
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
